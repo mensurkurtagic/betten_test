@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/tests/Unit" isTestSource="true" packagePrefix="Shopware\Tests\Unit\" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/Mink/features/bootstrap" isTestSource="true" packagePrefix="Shopware\Tests\Mink\" />
+      <sourceFolder url="file://$MODULE_DIR$/engine/Library/minify" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/Mink/Extension/ShopwareExtension" isTestSource="true" packagePrefix="Shopware\Behat\ShopwareExtension\" />
+      <sourceFolder url="file://$MODULE_DIR$/engine" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/tests/Functional" isTestSource="true" packagePrefix="Shopware\Tests\Functional\" />
+      <sourceFolder url="file://$MODULE_DIR$/engine/Library" isTestSource="false" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
